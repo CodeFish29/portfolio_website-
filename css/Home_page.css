@@ -1,0 +1,105 @@
+/*
+ *
+ * Header
+ *
+ */
+
+.header {
+  max-width: 100%;
+  display: flex;
+  margin: 2%;
+  justify-content: space-between;
+
+}
+
+.header__logo {
+ height: 200px;
+ margin: 0;
+}
+
+.header__title {
+  text-align: right;
+  display: inline;
+  color: #2d3c49;
+}
+
+.header__big {
+  font-weight: 10;
+  font-size: 7vmax;
+  margin: auto;
+}
+
+.header__little {
+  font-weight: 300;
+  font-size: 2vmax;
+  margin: 0;
+}
+
+/*
+ *
+ * break line
+ *
+ */
+
+.break{
+  border: none;
+  height: 4px;
+  color: #7d97ad; /* old IE */
+  background-color: #7d97ad; /* Modern Browsers */
+}
+
+/*
+ *
+ * big image
+ *
+ */
+
+ .big_img{
+   width: 100%;
+   margin: auto;
+ }
+
+ /*
+  *
+  * featured
+  *
+  */
+
+  .featured__title{
+    color: #7d97ad;
+    font-size:calc(20px + 4vw);
+  }
+
+  .featured__projects{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    margin: auto;
+  }
+
+  .featured__appify{
+    order: 0;
+    margin: auto;
+  }
+
+  .featured__sunflower{
+    order: 1;
+    margin: auto;
+  }
+
+  .featured__bokeh{
+    order: 2;
+    margin: auto;
+  }
+
+  .featured__img{
+    height: 300px;
+  }
+
+  .featured__link{
+    color: #2d3c49;
+    font-size: 100px;
+    display: block;
+    text-align: center;
+    margin-bottom: 100px;
+  }
