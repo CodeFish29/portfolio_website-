@@ -9,11 +9,11 @@
   display: flex;
   margin: 2%;
   justify-content: space-between;
-
 }
 
 .header__logo {
- height: 200px;
+ max-height: 148px;
+ max-width: 148px;
  margin: 0;
 }
 
@@ -41,7 +41,7 @@
  *
  */
 
-.break{
+.break {
   border: none;
   height: 4px;
   color: #7d97ad; /* old IE */
@@ -54,7 +54,7 @@
  *
  */
 
- .big_img{
+ .big_img {
    width: 100%;
    margin: auto;
  }
@@ -65,41 +65,47 @@
   *
   */
 
-  .featured__title{
+  .featured__title {
     color: #7d97ad;
     font-size:calc(20px + 4vw);
   }
 
-  .featured__projects{
+  .featured__projects {
     display: flex;
     flex-wrap: wrap;
     justify-content: space-between;
     margin: auto;
   }
 
-  .featured__appify{
+  .featured__appify {
     order: 0;
     margin: auto;
   }
 
-  .featured__sunflower{
+  .featured__sunflower {
     order: 1;
     margin: auto;
   }
 
-  .featured__bokeh{
+  .featured__bokeh {
     order: 2;
     margin: auto;
   }
 
-  .featured__img{
-    height: 300px;
+  .featured__img {
+    height: 20vw;
+    margin: auto;
+    align-items: center;
   }
 
-  .featured__link{
+  .featured__link {
     color: #2d3c49;
-    font-size: 100px;
+    font-size: calc(10px + 4vw);
     display: block;
     text-align: center;
     margin-bottom: 100px;
+  }
+
+  .featured_work_discription {
+    font-size: calc(10px + 3vw);
   }
